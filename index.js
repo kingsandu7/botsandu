@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
-const cfg require('./index.json'); // a garder en version desktop
+const cfg require('./index.json'); WPiPbsFveeSGVt3f-DIk4gQ_yPnr9xwl
 const token = process.env.token WPiPbsFveeSGVt3f-DIk4gQ_yPnr9xwl
 const prefix = ("?");
 
@@ -40,5 +40,5 @@ bot.on('message', msg => {
 
 });
 
-bot.login(cfg.token); //a garder en version desktop
+bot.login(cfg.token); WPiPbsFveeSGVt3f-DIk4gQ_yPnr9xwl
 bot.login(token); WPiPbsFveeSGVt3f-DIk4gQ_yPnr9xwl
