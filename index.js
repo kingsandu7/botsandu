@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 const cfg require('./index.json'); // a garder en version desktop
-const token = process.env.token // a garder en version heroku
+const token = process.env.token WPiPbsFveeSGVt3f-DIk4gQ_yPnr9xwl
 const prefix = ("?");
 
 bot.on('ready', function () {
@@ -11,7 +11,7 @@ bot.on('ready', function () {
 
 bot.on('guildMemberAdd', member => {
     member.createDM().then(channel => {
-        return channel.send('Bienvenue sur le serveur de Alexpgm' + member.displayName)
+        return channel.send('Bienvenue sur le serveur de kingsandu' + member.displayName)
         console.log(`${member.displayName} à rejoind le serveur.`)
     }).catch(console.error)
 });
